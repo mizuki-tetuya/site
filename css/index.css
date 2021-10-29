@@ -14,6 +14,7 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
+  z-index: 30;
 }
 .header-ttl {
   width: 100px;
@@ -21,8 +22,14 @@ body {
 .header-ttl img {
   width: 100%;
 }
+.header-ttl img:hover {
+  opacity: 0.7;
+}
 a {
   text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
 }
 .header-nav-list li a {
   color: black;
@@ -46,6 +53,7 @@ a {
   box-sizing: border-box;
 }
 .future {
+  margin-top: 50px;
   width: 100%;
   position: relative;
   margin-bottom: 80px;
@@ -127,6 +135,9 @@ a {
   width: 200px;
   border: none;
 }
+.service-list-btn:hover {
+  opacity: 0.7;
+}
 /*ニュース一覧*/
 .news {
   width: 100%;
@@ -155,6 +166,9 @@ a {
   text-align: center;
   padding: 10px 0;
 }
+.news-list:hover {
+  opacity: 0.7;
+}
 .news-content {
   width: 80%;
   margin: 0 auto;
@@ -165,6 +179,9 @@ a {
   font-size: 14px;
   padding: 15px 10px;
   margin-bottom: 5px;
+}
+.news-item:hover {
+  opacity: 0.7;
 }
 .news-content span {
   font-weight: bold;
@@ -196,6 +213,9 @@ a {
 .blog-card-img {
   width: 100%;
 }
+.blog-card-img:hover {
+  opacity: 0.7;
+}
 .date {
   margin: 10px 0;
   font-size: 14px;
@@ -204,16 +224,23 @@ a {
   font-weight: bold;
   font-size: 14px;
 }
+.blog-text:hover {
+  opacity: 0.7;
+}
 .blog-btn {
   width: 100%;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 60px;
 }
+.blog-btn:hover {
+  opacity: 0.7;
+}
 .blog-btn-item {
   background-color: rgb(235, 48, 48);
   color: white;
   text-align: center;
+  font-weight: bold;
   padding: 10px 30px;
   border: none;
 }
@@ -235,6 +262,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+.company-item:hover {
+  opacity: 0.7;
+}
 .company-item2 {
   background-color: black;
   color: white;
@@ -242,6 +272,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.company-item2:hover {
+  opacity: 0.7;
 }
 /*お問い合わせ*/
 .contact {
@@ -262,6 +295,9 @@ a {
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.contact-btn:hover {
+  opacity: 0.7;
 }
 .contact-btn-list {
   background-color: rgb(235, 48, 48);
@@ -292,4 +328,7 @@ a {
   border-right: 1px solid white;
   margin-right: 10px;
   padding-right: 5px;
+}
+.footer-nav-item a {
+  color: white;
 }
