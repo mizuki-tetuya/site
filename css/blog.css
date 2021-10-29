@@ -19,11 +19,17 @@ body {
 .header-ttl {
   width: 100px;
 }
+.header-ttl:hover {
+  opacity: 0.7;
+}
 .header-ttl img {
   width: 100%;
 }
 a {
   text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
 }
 .header-nav-list li a {
   color: black;
@@ -83,6 +89,9 @@ a {
 .blog-content-item img {
   width: 100%;
 }
+.blog-content-img:hover {
+  opacity: 0.7;
+}
 .blog-content-date {
   font-size: 12px;
   margin-top: 5px;
@@ -91,6 +100,9 @@ a {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.blog-content-text:hover {
+  opacity: 0.7;
 }
 /*お問い合わせ*/
 .contact {
