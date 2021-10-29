@@ -13,6 +13,7 @@ body {
   display: flex;
   text-align: center;
   position: fixed;
+  top: 0;
 }
 .header-ttl {
   width: 100px;
@@ -27,6 +28,7 @@ a {
   color: black;
 }
 .header-nav-list {
+  list-style: none;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -253,7 +255,8 @@ a {
   background-color: whitesmoke;
 }
 .contact-ttl {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 .contact-text {
   font-size: 14px;
